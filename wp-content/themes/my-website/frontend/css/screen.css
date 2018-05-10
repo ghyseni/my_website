@@ -242,9 +242,15 @@ article li li ol {
 #nav .network li {
     display: inline;
     padding: 0.5625em;
-    /*9 / 16 = 0.5625*/
     width: auto;
     float: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+}
+
+#nav .network li a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
